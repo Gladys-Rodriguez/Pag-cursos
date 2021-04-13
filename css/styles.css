@@ -1,0 +1,296 @@
+:root {
+  --primero: #8bc34a;
+  --segundo: #03a9f4;
+  --tercero: #ab47bc;
+  --cuarto: #ffb300;
+  --gris: #ecf0f5;
+  --azul: #25476a;
+  --naranja:#FDA944;
+  --smart: #1888B2;
+}
+
+html{
+  height: 80%;
+}
+
+body{
+  min-height: 100%;
+}
+
+body.login{
+  background-image: url(../img/learn.jpg);
+  background-size: cover;   
+}
+
+body.login .contenido{
+  border-radius: 10px;
+}
+
+.btn-primary, .btn-primary{
+  background-color: #FDA944;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.carousel-inner{
+height: 280px;
+}
+
+h2.lecture-title {
+  margin: 30px 0;
+  font-size:3rem;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  ccolor: #1888B2;
+  color:#FDA944;
+  text-shadow: 6px 6px 6px #25476a;
+}
+h2.display-3{
+  margin: 30px 0;
+  font-size:3rem;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #1888B2;
+  ccolor:#FDA944;
+}
+
+.card img{
+  wwidth: 100%;
+  hheight: 160px; 
+
+  mmax-height: 300px;
+}
+
+.card{
+  mmax-height: 580px;
+}
+
+div.jumbotron{
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+  bbackground-color: #1888B2;
+  bbackground-color: #FDA944;
+}
+
+div.service {
+  padding: 70px 0;  <!--Este pading es para el Scroll spye-->
+}
+
+div.service, img.float-left{
+  margin-right: 50px;
+}
+
+
+
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0 ; 
+  background: white;
+  display: flex;
+}
+
+.navbar{
+  font-size: 25px;
+  width: 100%;
+  background-color: #109EB9 !important;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+  padding: 10px 40px;
+}
+
+.nav-link{
+  margin-left: 15px ;
+}
+
+.nav-link:hover{
+  color:#f76623;
+}
+
+a.nav-link{
+  color: white !important;
+}
+
+.navbar img{
+  margin-left: 50px ;
+}
+
+.navbar-toggler{
+  font-size: 40px;
+}
+
+.navbar-toggler-focus{
+  outline: none;
+}
+
+#div_fotos{
+  padding-left: 30px;
+  padding-top: 30px;
+  
+}
+
+#div_fotos img{
+  border-radius: 30px;
+  -moz-box-shadow: 0 0 20px black; 
+    -webkit-box-shadow: 0 0 20px black; 
+    box-shadow: 0 0 20px black; 
+}
+
+#div_texto{
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#texto{
+  border-radius: 30px;
+}
+
+#texto h3{
+  margin: 20px;
+}
+
+#precio{
+  max-height: 600px;
+}
+
+#precio img{
+  border-radius: 30px;
+  -moz-box-shadow: 0 0 20px black; 
+    -webkit-box-shadow: 0 0 20px black; 
+    box-shadow: 0 0 20px black; 
+}
+
+/*Inicia formulario registro.php*/
+
+.form-resgister{
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  border-radius: 7px;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+.form-titulo{
+  background: #ec5c0c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 30px;
+  font-size: 30px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid darkgray;
+
+}
+
+.contenedor-inputs{
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+}
+
+.input-100{
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-enviar{
+  background: #ec5c0c;
+  color: #fff;
+  margin: auto;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 100;
+  border-radius: 20px;
+}
+
+bnt-enviar:active{
+  transform: scale(1.05);
+
+}
+
+.btn{
+  text-align: center;
+  width: 100%;
+}
+
+.p a{
+  font-size: 25px;
+}
+
+.form-link{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.form-link a{
+  color: #ec5c0c;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/*Fin formulario registro.php*/
+
+/* Calendario */
+.fc th{
+  padding: 10px 0px;
+  vertical-align: middle;
+  background: #F2F2F2;
+}
+
+
+
+/* estrellas */
+p.clasificacion {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+p.clasificacion input {
+  position: absolute;
+  top: -100px;
+}
+
+p.clasificacion label {
+  float: right;
+  color: #333;
+}
+
+p.clasificacion label:hover,
+p.clasificacion label:hover ~ label,
+p.clasificacion input:checked ~ label {
+  color: #dd4;
+}
