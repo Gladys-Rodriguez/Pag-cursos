@@ -9,16 +9,7 @@
   --smart: #1888B2;
 }
 
-html{
-  height: 80%;
-  
-}
 
-body{
-  min-height: 100%;
-  
-  
-}
 
 body.login{
   background-image: url(../img/learn.jpg);
@@ -101,7 +92,7 @@ body{
   margin: 0;
   padding: 0 ; 
   background: rgba(202, 202, 208, 0.658);
-  display: flex;
+  
 }
 
 .navbar{
@@ -214,18 +205,21 @@ body{
 /*Inicia formulario registro.php*/
 
 .form-resgister{
-  width: 95%;
+  width: auto;
   max-width: 500px;
-  margin: auto;
+  
+  margin-left: 40rem;
   background: white;
   border-radius: 7px;
     box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+z-index: 1;
+position: relative;
 }
 
 .form-titulo{
-  background: #ec5c0c;
+  background: rgba(20, 130, 138);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -255,7 +249,7 @@ body{
 }
 
 .btn-enviar{
-  background: #ec5c0c;
+  background: rgba(20, 130, 138);
   color: #fff;
   margin: auto;
   padding: 10px 40px;
@@ -288,7 +282,7 @@ bnt-enviar:active{
 }
 
 .form-link a{
-  color: #ec5c0c;
+  color: rgba(20, 130, 138);
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;

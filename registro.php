@@ -124,7 +124,7 @@
 				require_once('header.php');
 				?>
 		</header>
-		<div class="container">
+		
 		<br><br>
 					<div class="panel-body" >
 						
@@ -201,12 +201,9 @@
 								
 								<label for="captcha" class="col-md-12 control-label"></label>
 								<div class="g-recaptcha col-md-9" data-sitekey="6LfAq-kZAAAAAA24djEo9Fi2SwW16xwd7ZEROPs1"></div>
-								
-								
-</div>
+							</div>
 							
 							<br>
-							
 							<div class="btn" >                                      
 									<button type="submit" class="btn-enviar">Registrar</button>
 									<br>
@@ -214,11 +211,12 @@
 							<br>
 							<br>
 						</form>
+						</div>
 						<?php echo resultBlock($errors); ?>
-					</div>
+					
 					<p class="form-link">¿Ya tienes una cuenta?<a href="index.php"> Ingresa aquí</a></p>
 					<br>
-		</div>
+		
 
 		<?php
 			require_once('footer.php');
