@@ -1,0 +1,11 @@
+/*.navbar img{
+    display: flex;
+    justify-content: center;
+    padding-top: .1rem;
+    margin-bottom: .8rem;
+    width: 120px;
+    height: 120px;
+    background-color:rgba(202, 202, 208);
+    border-radius: 50%;
+    overflow: hidden;
+}*/

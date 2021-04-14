@@ -11,10 +11,13 @@
 
 html{
   height: 80%;
+  
 }
 
 body{
   min-height: 100%;
+  
+  
 }
 
 body.login{
@@ -33,11 +36,15 @@ body.login .contenido{
 
 .carousel-inner img {
   width: 100%;
-  max-height: 500px;
+  max-height: 400px;
+  
+  
 }
-
+/* INDEX*/
 .carousel-inner{
-height: 280px;
+margin-top: .5rem;
+  height: 350px;
+background-color:rgba(202, 202, 208);
 }
 
 h2.lecture-title {
@@ -45,7 +52,7 @@ h2.lecture-title {
   font-size:3rem;
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  ccolor: #1888B2;
+  color: #1888B2;
   color:#FDA944;
   text-shadow: 6px 6px 6px #25476a;
 }
@@ -55,30 +62,30 @@ h2.display-3{
   text-align: center;
   font-family: 'Dosis', sans-serif;
   color: #1888B2;
-  ccolor:#FDA944;
+  color:#FDA944;
 }
 
 .card img{
-  wwidth: 100%;
-  hheight: 160px; 
+  width: 100%;
+  height: 160px; 
 
-  mmax-height: 300px;
+  max-height: 300px;
 }
 
 .card{
-  mmax-height: 580px;
+  max-height: 580px;
 }
 
 div.jumbotron{
   padding-top: 10px;
   width: 100%;
   height: 100px;
-  bbackground-color: #1888B2;
-  bbackground-color: #FDA944;
+  background-color: #1888B2;
+  background-color: #FDA944;
 }
 
 div.service {
-  padding: 70px 0;  <!--Este pading es para el Scroll spye-->
+  padding: 70px 0;  /*Este pading es para el Scroll spye-->*/
 }
 
 div.service, img.float-left{
@@ -87,51 +94,68 @@ div.service, img.float-left{
 
 
 
------------------------------------
-
-
-
-
-
-
-
-
-
+/*-----------------------------------*/
 
 
 body{
   margin: 0;
   padding: 0 ; 
-  background: white;
+  background: rgba(202, 202, 208, 0.658);
   display: flex;
 }
 
 .navbar{
   font-size: 25px;
   width: 100%;
-  background-color: #109EB9 !important;
+  background-color: #25476a!important;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
   padding: 10px 40px;
+  
 }
 
 .nav-link{
   margin-left: 15px ;
+  
 }
 
 .nav-link:hover{
   color:#f76623;
 }
 
-a.nav-link{
-  color: white !important;
+.nav-link a{
+  color: rgba(102, 185, 191)!important; 
 }
 
+.container-fluid{
+  background-color: rgba(202, 202, 208, 0.658);
+  width:100%;
+  border: 0px;
+  position: relative; 
+  margin-left: 5rem;;
+  
+}
+ .footer{
+  background-color:#25476a;
+}
+.footer img{
+  width: 120px;
+    height: 110px;
+}
 .navbar img{
-  margin-left: 50px ;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color:#f2f2f2c9;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .navbar-toggler{
   font-size: 40px;
+  
 }
 
 .navbar-toggler-focus{
@@ -141,14 +165,16 @@ a.nav-link{
 #div_fotos{
   padding-left: 30px;
   padding-top: 30px;
+ 
   
 }
 
 #div_fotos img{
   border-radius: 30px;
   -moz-box-shadow: 0 0 20px black; 
-    -webkit-box-shadow: 0 0 20px black; 
-    box-shadow: 0 0 20px black; 
+    -webkit-box-shadow: 0 0 20px rgba(202, 202, 208)  ; 
+    box-shadow: 0 0 20px rgba(44, 165, 131); 
+    padding-bottom: 5rem;
 }
 
 #div_texto{
@@ -175,6 +201,14 @@ a.nav-link{
   -moz-box-shadow: 0 0 20px black; 
     -webkit-box-shadow: 0 0 20px black; 
     box-shadow: 0 0 20px black; 
+}
+
+
+.carousel-inner .carousel-item img{
+  width: 1000px;
+  height: 350px;
+  margin-left: 10rem;
+  margin-top: .1rem;
 }
 
 /*Inicia formulario registro.php*/

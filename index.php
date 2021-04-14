@@ -65,26 +65,24 @@
 						<li class="item2"></li>
 						<li class="item3"></li>
 						<li class="item4"></li>
-						<li class="item5"></li>
+						
 					</ul>
 					
 					<!-- The slideshow -->
 					<div class="carousel-inner">
 						<div class="carousel-item active" >
-							<a href="registro.php"><img src="img/ins.gif" alt="Alumnos" width="100%" height="100%"></a>
+							<a href="registro.php"><img src="img/C/banner5.jpg" alt="Alumnos" ></a>
 						</div>
 						<div class="carousel-item">
-						<a href="registro_profe.php"><img src="img/profe.png" alt="ingresa" width="100%" height="100%"></a>
+						<a href="registro_profe.php"><img src="img/C/Copia de banner C.png" alt="ingresa" width="100%" height="100%"></a>
 						</div>
 						<div class="carousel-item">
-						<a href=""><img src="img/person.gif" alt="profes" width="100%" height="100%"></a>
+						<a href=""><img src="img/C/programar.png" alt="profes" width="100%" height="100%"></a>
 						</div>
 						<div class="carousel-item">
-						<a href=""><img src="img/slider_in.png" alt="contacto" width="100%" height="100%"></a>
+						<a href=""><img src="img/C/banner2C.png" alt="contacto" width="100%" height="100%"></a>
 						</div>
-						<div class="carousel-item">
-						<a href=""><img src="img/questions.gif" alt="preguntas" width="100%" height="100%"></a>
-						</div>
+						
 					</div>
 					
 					<!-- Left and right controls -->
@@ -130,28 +128,28 @@
 					</script>
 			</div>
 			<!-- fin slider-->
-			<div class="container-fluid" style="border: 0px; margin: 0px; padding:0px 20px">
+			<div class="container-fluid" style="">
 
 			<div class="row">
 				<div id="div_texto" class="col-sm-12 col-md-12 col-lg-7 col-xs-7 justify-content-center align-self-center ">
 					<div id="texto" class="p-3 mb-2 bg-danger text-white justify-content-center container-fluid text-30px " >
 						<h3>
-						Contamos con profesores capacitados que estan ansiosos por ayudarte en tu camino al éxito.
+						Nuestros profesores están ampliamente capacitados para tu desarrollo profesional.
 						</h3>
 					</div>
 				</div>
 
 				<div id="div_fotos" class="col-sm-12 col-md-12 col-lg-5 col-xs-5 justify-content-center ">
-					<img src="img/profe_2.jpg" alt="" class="img-fluid border" >
+					<img src="img/C/profe3.jpeg" alt="" class="img-fluid border" >
 				</div>
 			</div>
 		</div>	
 		<!--Inicia banner-->
 			<br>
 			<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 justify-content-center align-self-center bg-info" style="padding-top: 20px;">
+					<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 justify-content-center align-self-center bg-info" style="padding-top: 0px; padding-left:150px;">
 					
-						<img src="img/suena.gif" alt="banner_2" class="img-fluid" >
+						<img src="img/C/banner3.gif" alt="banner_2" class="img-fluid" >
 					</div>
 			</div>
 		<!--Fin banner-->
@@ -161,7 +159,7 @@
 			<!-- class="img-fluid border  border-danger "   esto para poner bordes -->
 			<div class="row">
 				<div id="div_fotos" class="col-sm-12 col-md-12 col-lg-5 col-xs-5 justify-content-center ">
-					<img src="img/me_gusta.png" alt="" class="img-fluid border" >
+					<img src="img/C/C4.jpg" alt="" class="img-fluid border" >
 				</div>
 
 				<div id="div_texto" class="col-sm-12 col-md-12 col-lg-7 col-xs-7 justify-content-center align-self-center ">
@@ -183,7 +181,7 @@
 
 
 		<!--Inicia precios cards-->	
-		<div class="container-fluid" style="border: 0px; margin: 0px; padding:0px 30px">
+<!--		<div class="container-fluid" style="border: 0px; margin: 0px; padding:0px 30px">
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-3 col-xs-3 justify-content-center align-self-center" style="padding: 40px;">
 					<div id="precio">
@@ -206,7 +204,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!--Fin precios cards-->		
 
 			<div class="container-fluid" style="border: 0px; margin: 0px; padding:0px">
