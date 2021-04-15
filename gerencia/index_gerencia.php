@@ -82,7 +82,7 @@
 						
 						<br>
 						<div class="btn" >                                     
-								<button type="submit" class="btn-enviar">Iniciar Ses&iacute;n</button>
+								<button type="submit" class="btn-enviar">Iniciar Sesi&oacute;n</button>
 								<br>
 						</div>
 						<br>

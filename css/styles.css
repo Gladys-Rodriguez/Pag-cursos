@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --primero: #8bc34a;
   --segundo: #03a9f4;
   --tercero: #ab47bc;
@@ -7,7 +7,7 @@
   --azul: #25476a;
   --naranja:#FDA944;
   --smart: #1888B2;
-}
+}*/
 
 
 
@@ -21,7 +21,7 @@ body.login .contenido{
 }
 
 .btn-primary, .btn-primary{
-  background-color: #FDA944;
+  background-color: rgba(49, 174, 123);
 }
 
 
@@ -38,23 +38,16 @@ margin-top: .5rem;
 background-color:rgba(202, 202, 208);
 }
 
-h2.lecture-title {
+.lecture-title {
   margin: 30px 0;
-  font-size:3rem;
+  font-size:6rem;
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  color: #1888B2;
-  color:#FDA944;
-  text-shadow: 6px 6px 6px #25476a;
+  
+ 
+  text-shadow: 6px 6px 6px #217ce4;
 }
-h2.display-3{
-  margin: 30px 0;
-  font-size:3rem;
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  color: #1888B2;
-  color:#FDA944;
-}
+
 
 .card img{
   width: 100%;
@@ -67,12 +60,13 @@ h2.display-3{
   max-height: 580px;
 }
 
-div.jumbotron{
-  padding-top: 10px;
+
+.jumbotron {
+  padding-top: 20px;
   width: 100%;
   height: 100px;
-  background-color: #1888B2;
-  background-color: #FDA944;
+  background-color: none;
+  
 }
 
 div.service {
@@ -110,7 +104,7 @@ body{
 }
 
 .nav-link:hover{
-  color:#f76623;
+  color:rgba(49, 174, 123);
 }
 
 .nav-link a{

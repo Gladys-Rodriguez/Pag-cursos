@@ -80,7 +80,7 @@ include '../funcs/func_gerencia/funcs.php';
 					<!-- start navbar -->
 			<div class="container-fluid" style="border: 0px; margin: 0px; padding:0px">
 					<?php
-						require_once('header_academia.php');
+						require_once('header_gerencia_index.php');
 					?>
 					
 			</div>

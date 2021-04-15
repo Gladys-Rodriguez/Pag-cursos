@@ -12,22 +12,23 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/logostyle.css">
 
         <?php
 						require_once('header_alumnos.php');
 					?>
       </head>
 
-  <div class="jumbotron">
-    <h2 class=lecture-title class="display-3 ">Let's to Talk</h2>
-  </div>
+ 
 
-<body class="h-100 alumnos">  
+<body >  
 
-     <!-- <div class="jumbotron">
-				<h2>  <?php echo 'Bienvenid@ '.$row['nombre']. ' '. $row['apellido_p']; ?>  </h1>
-				<br />
-			</div> -->
+    <h2 class="lecture-title">Comencemos</h2>
+  
+
+   
+			<!--	<h2>  <?php echo 'Bienvenid@ '.$row['nombre']. ' '. $row['apellido_p']; ?>  </h2>-->
+
 
 <main class="container">
     <div class="row">

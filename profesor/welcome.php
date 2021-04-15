@@ -63,9 +63,13 @@
 				  
 				echo 'ID'.' '.'Nombre '.' Calificacion'.'<br/>'.'<br/>'; 
 
-				foreach ($consul as $fila) {
-				  echo $fila['id_alumno'].' '.$fila['nombre'].' '.$fila['apellido_p'].' '.$fila['calificacion'].'<br/>';
-				} 
+				if (is_array($consul) || is_object($consul))
+				{
+					foreach ($consul as $fila) {
+						echo $fila['id_alumno'].' '.$fila['nombre'].' '.$fila['apellido_p'].' '.$fila['calificacion'].'<br/>';
+					  } 
+				}
+				
 				
 				
 				?>
@@ -74,15 +78,21 @@
 
 				<div class="col-6">
 				<?php 
+				
 				$consul = $mysqli->query('SELECT status FROM calificaciones_finales Where status=1');
 					
 				echo '<br/>';
 				echo '<br/>';
 				$suma=0;
+
+				if (is_array($consul) || is_object($consul))
+				{
 					foreach ($consul as $fila) {
 
 						$suma=$suma+ $fila['status'];
-					} 
+					}
+				}
+					 
 				echo 'Hay '.$suma. ' Alumno/s que han acreditado el curso ';	
 				?>
 				</div>
