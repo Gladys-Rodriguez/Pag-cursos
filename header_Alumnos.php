@@ -13,8 +13,10 @@
 	$result = $mysqli->query($sql);
 	
 	$row = $result->fetch_assoc();
-    $nombre_alumno=$row['nombre'];
-    $id_alumno=$row['id_alumno'];
+    if(isset($row['nombre'])){
+    $nombre_alumno=$row['nombre'];}
+    if(isset($row['id_alumno'])){
+    $id_alumno=$row['id_alumno'];}
 
 ?>
 

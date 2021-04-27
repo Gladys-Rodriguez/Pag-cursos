@@ -44,20 +44,20 @@
                     
                       <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid float-center" src="img/frase_motivadora_4.jpg" 
-                                width="350" height="1000">
+                                <img class="d-block img-fluid float-center" src="img/C/banner6.png" 
+                                width="350" height="100" margin-left="1rem">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid float-center" src="img/frase_motivadora.jpeg"
+                                <img class="d-block img-fluid float-center" src="img/C/banner7.png"
                                  width="1000" height="15">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid float-center " src="img/frase_motivadora_1.jpg" 
+                                <img class="d-block img-fluid float-center " src="img/C/banner8.png" 
                                 width="350" height="350">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>Puente de la torre</h3>

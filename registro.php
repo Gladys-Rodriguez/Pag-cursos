@@ -67,7 +67,7 @@
 				if($registro > 0 )
 				{
 					
-					$url = 'http://'.$_SERVER["SERVER_NAME"].'/prueba/activar.php?id_alumno='.$registro.'&val='.$token;
+					$url = 'http://'.$_SERVER["SERVER_NAME"].'/Pag_Cursos C/activar.php?id_alumno='.$registro.'&val='.$token;
 					
 					$asunto = 'Activar Cuenta - Sistema de alumnos';
 					$cuerpo = "Estimado $nombre: <br /><br />Para continuar con el proceso de registro, es indispensable de click en la siguiente liga <a href='$url'>Activar Cuenta</a>";

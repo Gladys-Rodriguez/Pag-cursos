@@ -1,6 +1,10 @@
 <?php
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+require 'PHPMailer/Exception.php';
 use PHPMailer\PHPMailer\PHPMailer;
-
+		use PHPMailer\PHPMailer\SMTP;
+		use PHPMailer\PHPMailer\Exception;
 	
 	function isNull($nombre, $apellido_p, $apellido_m, $tipo_suscripcion, $user, $pass, $pass_con, $email){
 		if(strlen(trim($nombre)) < 1 || strlen(trim($apellido_p)) < 1 || strlen(trim($apellido_m)) < 1 ||strlen(trim($tipo_suscripcion)) < 1 ||strlen(trim($user)) < 1 || strlen(trim($pass)) < 1 || strlen(trim($pass_con)) < 1 || strlen(trim($email)) < 1)
@@ -123,26 +127,29 @@ use PHPMailer\PHPMailer\PHPMailer;
 	
 	function enviarEmail($email, $nombre, $asunto, $cuerpo){
 		
-		require_once 'PHPMailer/PHPMailerAutoload.php';
 		
+		//include_once('PHPMailer/class.phpmailer.php');
+		//require_once('PHPMailer/class.smtp.php');
+		
+	   
 		$mail = new PHPMailer();
 		$mail->isSMTP();
 		$mail->SMTPDebug = 2;
 		$mail->SMTPAuth = true;
-		$mail->SMTPSecure = 'tls'; //Modificar
+		$mail->SMTPSecure = 'tsl'; //Modificar
 		$mail->Host = 'smtp.gmail.com'; //Modificar
 		$mail->Port = '587'; //Modificar
 		
 		$mail->Username = 'gla.rodriguez.sanchez@gmail.com'; //Modificar
 		$mail->Password = 'glarod28'; //Modificar
 		
-		$mail->setFrom('gla.rodriguez.sanchez@gmail.com', 'Lets talk english'); //Modificar
+		$mail->setFrom('gla.rodriguez.sanchez@gmail.com'); //Modificar
 		$mail->addAddress($email, $nombre);
 		
 		$mail->Subject = $asunto;
 		$mail->Body    = $cuerpo;
 		$mail->IsHTML(true);
-		
+		$mail->SMTPDebug = 0;
 		if($mail->send())
 		return true;
 		else

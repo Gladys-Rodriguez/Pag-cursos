@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include 'config.php';
+	include 'funcs/config.php';
 	require 'funcs/conexion.php';
 	include 'funcs/funcs.php';
 	
