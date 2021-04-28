@@ -23,7 +23,7 @@
 		
 		$errors[] = login($usuario, $password);	
 	}
-	echo json_encode($errors);
+	echo json_encode($errors);	
 ?>
 <!doctype html>
 <html lang="es">

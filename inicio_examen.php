@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><!--Clase para hacer uso de elemntos de html5-->
   <head>
-        <title>Admin BS</title>
+        <title>Examen</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

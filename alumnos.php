@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-        <title>Admin BS</title>
+        <title>Inicio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -78,14 +78,14 @@
                 <div class="row pt-4"><!--Inicio de los cards-->
                 <div class="col-6 col-md-3">
                   <div class="card ">
-                    <h2 class="card-title text-center py-2">Unidades</h2>
-                          <img src="img/libros.png" class="card-img-top img-fluid ">
+                    <h2 class="card-title text-center py-2">Lecciones</h2>
+                          <img src="img/C/lecciones.png" class="card-img-top img-fluid ">
                           <div class="card-body">
-                              <p class="card-text text-center">En esta sección podras visualizar los temas explicados de cada unidad, ejecicios, vocabulario, imagenes, etc</p>
+                              <p class="card-text text-center">En esta sección podras visualizar los temas que serán explicados de cada unidad.</p>
                               
                               <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Unidades 1-10</li>
-                                  <li class="list-group-item">leccion A, B, C y D por unidad</li>
+                                <!--  <li class="list-group-item">Unidades 1-10</li>
+                                  <li class="list-group-item">leccion A, B, C y D por unidad</li> -->
                               </ul>
                               <a href="Alumnos_Unidades.php" class="btn btn-primary mt-2 float-right">Ir</a><!--Enlace a la siguiente seccion-->
                               
@@ -96,14 +96,14 @@
                 <div class="col-6 col-md-3">
                   <div class="card ">
                     <h2 class="card-title text-center py-2">Ejercicios</h2>
-                          <img src="img/tarea_2.jpg" width="100" height="160" class="card-img-top img-fluid">
+                          <img src="img/C/pensar.png" width="100" height="160" class="card-img-top img-fluid">
                           <div class="card-body">
-                              <p class="card-text text-center">En esta sección podras reforzar los temas aprendidos con una serie de ejercicios</p>
+                              <p class="card-text text-center">En esta sección podras reforzar aprendido con una serie de ejercicios</p>
                               
                               <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Ejercicios de las unidades 1-10</li>
+                                  <!--<li class="list-group-item">Ejercicios de las unidades 1-10</li>
                                   <li class="list-group-item py-4">Ejercicios A, B, C y D por unidad</li>
-                                  <li class="list-group-item py-1"></li>
+                                  <li class="list-group-item py-1"></li>-->
                               </ul>
                               <a href="Alumnos_Ejercicios.php" class="btn btn-primary mt-3 float-right">Ir</a>
                               
@@ -113,15 +113,15 @@
 
                 <div class="col-6 col-md-3">
                   <div class="card ">
-                    <h2 class="card-title text-center py-2">Test</h2>
-                          <img src="img/examen.jpg" class="card-img-top img-fluid">
+                    <h2 class="card-title text-center py-2">Practicas</h2>
+                          <img src="img/C/examen.jpg" class="card-img-top img-fluid">
                           <div class="card-body">
-                              <p class="card-text text-center">Realizacion de examenes cronometrados una vez por terminada la unidad</p>
+                              <p class="card-text text-center">Realizacion de tests cronometrados una vez por terminada la leccion</p>
                               
                               <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Examenes de las unidades 1-10</li>
+                                 <!-- <li class="list-group-item">Examenes de las unidades 1-10</li>
                                   <li class="list-group-item py-4"></li>
-                                  <li class="list-group-item py-4"></li>
+                                  <li class="list-group-item py-4"></li> -->
                               </ul>
                               <a href="inicio_examen.php" class="btn btn-primary mt-1 float-right">Ir</a>
                               
@@ -129,7 +129,7 @@
                   </div>
                 </div>
 
-                <div class="col-6 col-md-3">
+              <!--  <div class="col-6 col-md-3">
                   <div class="card ">
                     <h2 class="card-title text-center py-2">Contacto</h2>
                           <img src="img/mensajes.jpg" class="card-img-top img-fluid">
@@ -144,19 +144,19 @@
                               
                           </div>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="col-6 col-md-3 col-lg-3">
                   <div class="card">
                     <h2 class="card-title text-center py-2">Asesorias</h2>
-                          <img src="img/profesor_2.jpg" class="card-img-top img-fluid">
+                          <img src="img/C/calendar.jpg" class="card-img-top img-fluid">
                           <div class="card-body">
-                              <p class="card-text text-center">Podras relizar una cita para una asesoria de algun tema en especifico el cual no hayas comprendido en su totalidad</p>
+                              <p class="card-text text-center">Podras relizar una cita para una asesoria sobre alguna duda que tengas.</p>
                               
-                              <ul class="list-group list-group-flush">
+                            <!--  <ul class="list-group list-group-flush">
                                   <li class="list-group-item ">Horarios disponibles</li>
                                   <li class="list-group-item ">7:00 am - 2:00 pm</li>
-                              </ul>
+                              </ul>-->
                               <a href="#" class="btn btn-primary mt-2 float-right">Ir</a>
                               
                           </div>
