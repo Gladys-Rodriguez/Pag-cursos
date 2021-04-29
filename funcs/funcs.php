@@ -140,10 +140,10 @@ use PHPMailer\PHPMailer\PHPMailer;
 		$mail->Host = 'smtp.gmail.com'; //Modificar
 		$mail->Port = '587'; //Modificar
 		
-		$mail->Username = 'gla.rodriguez.sanchez@gmail.com'; //Modificar
-		$mail->Password = 'glarod28'; //Modificar
+		$mail->Username = 'acevespadilla5nm71@gmail.com'; //Modificar
+		$mail->Password = '+ABCde123'; //Modificar
 		
-		$mail->setFrom('gla.rodriguez.sanchez@gmail.com'); //Modificar
+		$mail->setFrom('acevespadilla5nm71@gmail.com'); //Modificar
 		$mail->addAddress($email, $nombre);
 		
 		$mail->Subject = $asunto;

@@ -34,7 +34,7 @@
 
 
   <div class="jumbotron">
-    <h2 class="display-3 ">Exam</h2>
+    <h2 class="display-3 ">Practicas</h2>
   </div>
 
   
@@ -45,30 +45,27 @@
 
                     <table class="table table-hover"><!--Inicializacion y creacion de la tabal-->
                                 
-                        <caption>Let´s to talk</caption>
+                        <caption>Programando en C</caption>
                         <thead class="thead-default"><!--Titulos en negritas-->
                           <tr>
-                              <th>Unidad</th>
+                              <th>Lección</th>
                               <th>Descripción</th>
                           </tr>
                         </thead>
                         <tbody>
                               <tr>
-                                <td>Unit 1</td><!--Primer elemento de la lista-->
-                                <td class="nav nav-pills" ><a class="nav-item" class="nav-link" href="examen.php">Exam</a></td>
+                                <td>Lección 1</td><!--Primer elemento de la lista-->
+                                <td class="nav nav-pills" ><a class="nav-item" class="nav-link" href="examen.php">Practica 1</a></td>
                               </tr>
                               <tr>
-                                <td>Unit 2</td><!--Segundo elemento de la lista-->
-                                <td class="nav nav-pills"><a class="nav-item" class="nav-link" href="examen1.php">Exam</a></td> <!--cambiar el examen1-->
+                                <td>Lección 2</td><!--Segundo elemento de la lista-->
+                                <td class="nav nav-pills"><a class="nav-item" class="nav-link" href="examen1.php"></a></td> <!--cambiar el examen1-->
                               </tr>
                               <tr>
-                                <td>Unit 3</td>
-                                <td class="nav nav-pills"> <a class="nav-item" class="nav-link" href="#">Exam</a></td>
+                                <td>Lección 3</td>
+                                <td class="nav nav-pills"> <a class="nav-item" class="nav-link" href="#"></a></td>
                               </tr>
-                              <tr>
-                                <td>Unit 4</td>
-                                <td class="nav nav-pills"> <a class="nav-item" class="nav-link" href="#">Exam</td>
-                              </tr>                              
+                                                       
                         </tbody>
                   </table>
             

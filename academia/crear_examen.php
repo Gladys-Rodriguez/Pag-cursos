@@ -80,9 +80,8 @@
           <form action="recoleccion_crear_examen.php" method="post"><!--**********************************-->
                
                 <p>Seleccione el examen de la unidad quiere crear <select name="exa"class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-                <option value="1">Examen para la unidad 1</option>
-                <option value="2">Examen para la unidad 2</option>
-                <option value="3">Examen para la unidad 3</option>
+                <option value="1">Examen para la leccion 1</option>
+                
                 </select></p>
 
                 <input type="text" size="100" placeholder="Ingrese la pregunta numero 1" name="1">

@@ -28,7 +28,7 @@
 			
 	
 <nav class="navbar navbar-expand-lg navbar-light">
-    <img src="img/logo_do.png" alt="">
+    <img src="img/C/logoC.png" alt="">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,10 +44,10 @@
                 Secciones
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Alumnos_Unidades.php">Unidades</a>
+                <a class="dropdown-item" href="Alumnos_Unidades.php">Lecciones</a>
                 <a class="dropdown-item" href="Alumnos_Ejercicios.php">Ejercicios</a>
-                <a class="dropdown-item" href="inicio_examen.php">Test</a>
-                <a class="dropdown-item" href="muestra_profes.php">Asesorias</a>
+                <a class="dropdown-item" href="inicio_examen.php">Practicas</a>
+               
                 
             </li>
             <li class="nav-item">
@@ -82,10 +82,10 @@
 				<div>
 				<?php
 
-							if(!$POST ){
+						//	if(!$POST ){
 
 								//Alerta para no dejarlo avanzar hasta que termine de contestar el ejercicio 
-							}
+						//	}
 							global $mysqli;
 								
 							session_start();
@@ -93,21 +93,23 @@
 								include 'funcs/funcs.php';
 								
 								$idUsuario = $_SESSION['id_usuario'];
+								$suma = 0;
 
 							for($i=0;$i<=10; $i++){
 
-								$Respuesta=$_POST["$i"];
+								$Respuesta=$_POST["$i"] ?? "";
 								//echo 'el valor de la primera respuesta es '.$Respuesta;   						
 								$stmt = $mysqli->query("INSERT INTO examen VALUES ($idUsuario, $i, $Respuesta)");
 							}
 
 							$resultado = $mysqli->query('SELECT * FROM examen');
 							foreach($resultado as $fila){
-								$suma= $fila['respuesta']+$suma;
+								
+								 $suma= $fila['respuesta'] + $suma ;
 							}
 							//echo '<br/>'.'Obtuviste '.$suma.' respuestas correctas';
 							//echo '<br/>';
-							$op1=($suma*10)/10; 
+							$op1=($suma*10)/5; 
 							echo '<br/>'.'Tu calificacion es de '.$op1;						
 						?>
 

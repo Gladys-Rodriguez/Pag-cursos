@@ -37,10 +37,10 @@
                 Secciones
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Alumnos_Unidades.php">Unidades</a>
+                <a class="dropdown-item" href="Alumnos_Unidades.php">Lecciones</a>
                 <a class="dropdown-item" href="Alumnos_Ejercicios.php">Ejercicios</a>
-                <a class="dropdown-item" href="inicio_examen.php">Test</a>
-                <a class="dropdown-item" href="muestra_profes.php">Asesorias</a>
+                <a class="dropdown-item" href="inicio_examen.php">Practicas</a>
+               <!-- <a class="dropdown-item" href="muestra_profes.php">Asesorias</a>-->
                 
             </li>
             <li class="nav-item">

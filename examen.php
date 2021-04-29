@@ -61,7 +61,7 @@
 					
 					<!-- start navbar -->
 					<nav class="navbar navbar-expand-lg navbar-light">
-    <img src="img/logo_do.png" alt="">
+    <img src="img/C/LogoC.png" alt="">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -77,10 +77,10 @@
                 Secciones
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Alumnos_Unidades.php">Unidades</a>
+                <a class="dropdown-item" href="Alumnos_Unidades.php">Lecciones</a>
                 <a class="dropdown-item" href="Alumnos_Ejercicios.php">Ejercicios</a>
-                <a class="dropdown-item" href="inicio_examen.php">Test</a>
-                <a class="dropdown-item" href="muestra_profes.php">Asesorias</a>
+                <a class="dropdown-item" href="inicio_examen.php">Practicas</a>
+                
                 
             </li>
             <li class="nav-item">
@@ -97,7 +97,7 @@
 
 			<div class="jumbotron">
 			</br>
-				<h2 >  <?php echo ' Good look '.$row['nombre']; ?>  </h2>
+				<h2 >  <?php echo ' Éxito '.$row['nombre']; ?>  </h2>
 				<br />
 			</div>
 
@@ -113,80 +113,47 @@
 					<div class="col-12">
 						<form name="cron" action="cronometro.php" method="post">
 							</br>
-							<input type="button" value="Start exam" name="boton1"   />							
+							<input type="button" value="Inicia examen" name="boton1"   />							
 							</br>
 
 
-								<p class="pt-4">1.When you finish meeting someone, you usually say<select name="1"class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-											<option value="0">How are you?</option>
-											<option value="1">Nice to meet you </option>
-											<option value="0">bye</option>
+								<p class="pt-4">1.¿A qué clase de tipo de datos pertenece el tipo int?<select name="1"class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
+											<option value="1">Entero normal</option>
+											<option value="0">Decimal normal</option>
+											<option value="0">Ambas respuestas son correctas</option>
 								</select></p>
 								
-								<p class="pt-4">2.when you finish talking to someone, you usually say<select name="2" class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-											<option value="0">Good night</option>
-											<option value="1">Nice to meet you</option>
-											<option value="0">I'm fine </option>
+								<p class="pt-4">2.Si necesitamos una variable para almacenar valores como 3.1416, ¿de qué tipo declararemos la variable?<select name="2" class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
+											<option value="0">Char</option>
+											<option value="1">Float</option>
+											<option value="0">Int</option>
 								</select></p> 
 
-								<p class="pt-4">3.It's another way to say hello<select name="3" class="selectpicker" multiple data-max-options="1">
-											<option value="0">I see you</option>
-											<option value="0">Nice to meet you</option>
-											<option value="1">How are you? </option>
+								<p class="pt-4">3.Se quiere declarar una variable festivo para indicar si el día actual es festivo o no lo es. ¿Cuál será el tipo más idóneo para declarla?<select name="3" class="selectpicker" multiple data-max-options="1">
+											<option value="0">Char</option>
+											<option value="1">Boolean</option>
+											<option value="0">Float</option>
 										</select></p>
 
-								<p class="pt-4">4.It's another way to say good-bye<select name="4" class="selectpicker" multiple data-max-options="1">
-											<option value="1">bye</option>
-											<option value="0">Nice to meet you</option>
-											<option value="0">I see you</option>
+								<p class="pt-4">4.Dada una variable palabra declarada como char, ¿qué sentencia será correcta?<select name="4" class="selectpicker" multiple data-max-options="1">
+											<option value="0">palabra := 'b';</option>
+											<option value="0">palabra := 'Beni';</option>
+											<option value="1">palabra := "b";</option>
 										</select>.</p>
 								
-								<p class="pt-4">5.how much is two + eight <select name="5" class="selectpicker" multiple data-max-options="1">
-											<option value="1">ten</option>
-											<option value="0">nine</option>
-											<option value="0">six </option>
+								<p class="pt-4">5.Dada la declaración de constante nombre = 'valor', ¿de qué tipo es la constante?<select name="5" class="selectpicker" multiple data-max-options="1">
+											<option value="0">int</option>
+											<option value="0">char</option>
+											<option value="1">Las constantes no son de ningún tipo </option>
 										</select>.</p> 
 
-								<p class="pt-4">6.Hello my name is David Allen Hanson </p>
-								<p >Allen is the <select name="6"class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-											<option value="0">last</option>
-											<option value="0">firs</option>
-											<option value="1">middle</option>
-											</select>name of David</p>
-
-								<p class="pt-4">7.Hi, I'm Liz Park, my first name is Elizabet. Liz is short for Elizabeth </p>
 								
-								<p>Park is the <select name="7"class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-											<option value="0">last</option>
-											<option value="0">short</option>
-											<option value="1">middle</option>
-											</select>name of Liz</p>
-								
-								<p class="pt-4">8.Select the most common word <select name="8" class="selectpicker" multiple data-max-options="1"> <!--Clase para seleccionar valores-->
-											<option value="0">I am</option>
-											<option value="1">I'm</option>
-											<option value="0">I'm am</option>
-								</select></p> 
-
-								<p class="pt-4">9.Verb to be </p>
-								<p>"is" It's for <select name="9" class="selectpicker" multiple data-max-options="1">
-											<option value="1">he, she</option>
-											<option value="0">I, we</option>
-											<option value="0">you, they </option>
-										</select>.</p>
-
-								<p class="pt-4">10.Verb to be </p>
-								<p>"are" It's for <select name="9" class="selectpicker" multiple data-max-options="1">
-											<option value="1">he, she</option>
-											<option value="0">I, we</option>
-											<option value="0">you, they </option>
-										</select>.</p>
 							
 							</br>
 
-							<input type="button" value="finish exam" name="boton2"  />  <br/>
+							<input type="button" value="Finaliza examen" name="boton2"  />  <br/>
 							</br>
-							<input type="submit" value="send exam">
+							<input type="submit" value="Envía Examen">
 								</br>
 								</br>
 								</br>
@@ -219,7 +186,7 @@
 
 					//botón Empezar / Reiniciar
 					function activo (){   
-						if (document.cron.boton1.value=="Start exam") { //botón en "Empezar"
+						if (document.cron.boton1.value=="Inicia examen") { //botón en "Empezar"
 							empezar() //ir  la función empezar
 							}
 						else {  //Botón en "Reiniciar"

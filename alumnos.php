@@ -146,22 +146,22 @@
                   </div>
                 </div> -->
 
-                <div class="col-6 col-md-3 col-lg-3">
+           <!--     <div class="col-6 col-md-3 col-lg-3">
                   <div class="card">
                     <h2 class="card-title text-center py-2">Asesorias</h2>
                           <img src="img/C/calendar.jpg" class="card-img-top img-fluid">
                           <div class="card-body">
                               <p class="card-text text-center">Podras relizar una cita para una asesoria sobre alguna duda que tengas.</p>
-                              
+-->
                             <!--  <ul class="list-group list-group-flush">
                                   <li class="list-group-item ">Horarios disponibles</li>
                                   <li class="list-group-item ">7:00 am - 2:00 pm</li>
                               </ul>-->
-                              <a href="#" class="btn btn-primary mt-2 float-right">Ir</a>
+                          <!--    <a href="#" class="btn btn-primary mt-2 float-right">Ir</a>
                               
                           </div>
                   </div>
-                </div>
+                </div>-->
                 </div><!--row--><!--Fin de los cards-->
           </div>
     </div>

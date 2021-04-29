@@ -17,11 +17,11 @@
                 <a class="dropdown-item" href="aca_regi_alumno.php">Alumno</a>
                 <a class="dropdown-item" href="aca_regi_profes.php">Profesor</a>
                 <a class="dropdown-item" href="aca_regi_aca.php">Academia</a>
-                <a class="dropdown-item" href="aca_regi_gerencia.php">Gerencia</a>
+                
                 
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+          <li class="nav-item">
+                <a class="nav-link" href="welcome.php">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="crear_examen.php">Crear un examen</a>

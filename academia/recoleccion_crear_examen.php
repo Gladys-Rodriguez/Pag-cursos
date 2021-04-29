@@ -74,9 +74,9 @@
 
           <?php
 
-                  if(!$POST ){
+                 // if(!$POST ){
                 
-                  }
+                  //}
                   global $mysqli;
                                    
                   $idUsuario = $_SESSION['id_usuario'];//

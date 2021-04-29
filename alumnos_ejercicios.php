@@ -64,7 +64,7 @@
                         <tbody>
                               <tr>
                                 <td>Lección 1</td><!--Primer elemento de la lista-->
-                               <!-- <td class="nav nav-pills" ><a class="nav-item" class="nav-link" href="#All_about_you">All about you</a></td> -->
+                                <td class="nav nav-pills" ><a class="nav-item" class="nav-link" href="#Tipos de Datos">Tipos de Datos</a></td> 
                               </tr>
                               <tr>
                                 <td>Lección 2</td><!--Segundo elemento de la lista-->
@@ -74,34 +74,7 @@
                                 <td>Lección 3</td>
                               <!--  <td class="nav nav-pills"> <a class="nav-item" class="nav-link" href="#Favorite_People">Favorite People</a></td> -->
                               </tr>
-                              <tr>
-                                <td>Lección 4</td>
-                                <td> </td>
-                              </tr>
-                              <tr>
-                                <td>Lección 5</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Lección 6</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Lección 7</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Lección 8</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Lección 9</td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <td>Lección 10</td>
-                                <td></td>
-                              </tr>
+                              
                         </tbody>
                       </nav>
                   </table>
@@ -110,7 +83,34 @@
     </div>
         
     <!--Contenido del primer elemento de la lista-->
+    <div class="col-12" id="Tipos de Datos" class="service"> 
+        <div class="jumbotron" class="pt-4">
+          <h2 class="display-3">Contenido de ejercicios</h2>
+        </div>
+        <h3 class="py-4">Leccion 1</h3>   
+          <div>
+            <h1 class="py-3">Tipos de Datos</h1>
+            <h3> Realiza los siguientes ejercicios: </h3>
+          </div>  
+        </div>
 
+
+        <div> 
+                <!--Inicio del div-->
+        <h4 class="py-5" class="display-1" > 1. Codifica y compila lo siguiente:</h4>
+        <img src="img/C/ejercicio1_1.png"width="800" height="800" class="img-fluid float-center img-thumbnail p-2">      
+        </div><!--Fin de primera columna-->
+        <div> 
+                <!--Inicio del div-->
+        <h4 class="py-5" class="display-1" > 2. Codifica y compila lo siguiente:</h4>
+        <img src="img/C/ejercicio1_2.png"width="800" height="800" class="img-fluid float-center img-thumbnail p-2">      
+        </div><!--Fin de primera columna-->
+        <div> 
+                <!--Inicio del div-->
+        <h4 class="py-5" class="display-1" > 3. Realiza las correcciones de acuerdo con lo visto en “Conversiones de Datos” para que el programa funciones correctamente:</h4>
+        <img src="img/C/ejercicio1_3.png"width="800" height="800" class="img-fluid float-center img-thumbnail p-2">      
+        </div><!--Fin de primera columna-->
+       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -122,6 +122,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
     
   <!-- start footer -->		
+  <br>
   </body>
   </main>
 

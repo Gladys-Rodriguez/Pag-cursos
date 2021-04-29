@@ -22,7 +22,7 @@
                 <a class="dropdown-item" href="profesor/index_profes.php">Profesor</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="academia/index_academia.php">Academia</a>
-                <a class="dropdown-item" href="gerencia/index_gerencia.php">Gerencia</a>
+                
                 </div>
             </li>
             <li class="nav-item">
